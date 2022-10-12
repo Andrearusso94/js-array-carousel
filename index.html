@@ -8,7 +8,26 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
   <body>
-   
+   <!--MILESTONE 1
+ Per prima cosa, creiamo il markup statico: costruiamo il container e inseriamo un'immagine grande al centro:
+ avremo così la struttura base e gli stili pronti per poterci poi concentrare solamente sull'aspetto logico.-->
+  
+   <div class="d-flex justify-content-center">
+    <div class="slider col-6 shadow-lg">
+        <div class="slides">
+            <img class="active" src="./assets/img/03.webp" alt="">
+            <img class="active" src="./assets/img/04.webp" alt="">
+            <img class="active" src="./assets/img/01.webp" alt="">
+            <img class="active" src="./assets/img/02.webp" alt="">
+            <img class="active" src="./assets/img/05.webp" alt="">
+        </div>
+        <div class="controls d-flex justify-content-between p-2">
+            <button class="prev">Prev</button>
+            <button class="next">Next</button>
+        </div>
+    </div>
+   </div>
+
 
 
     <script src="./assets/js/main.js"></script>

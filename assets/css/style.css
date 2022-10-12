@@ -7,12 +7,14 @@ body{
 img{
     max-width: 100%;
     display: none;
+    vertical-align: middle;
 }
 .active{
     display: block;
 }
 
 
+  
 /*.slider{
     position: relative;
 }

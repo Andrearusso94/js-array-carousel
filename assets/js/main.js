@@ -20,4 +20,18 @@ for (let i = 0; i < slides.length; i++){
     slidesEl.insertAdjacentHTML('beforeend', slideMark)
 }
 
-//
+// constanti per i pulsanti
+
+const prevButton = document.querySelector('.prev')
+const nextButton = document.querySelector('.next')
+
+
+//input al click
+
+nextButton.addEventListener('click', function (){
+  console.log('next');
+
+  
+  const slides =document.querySelectorAll('.slides > img');
+  console.log(slides[activeImg]);
+})

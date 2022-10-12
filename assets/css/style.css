@@ -6,8 +6,12 @@ body{
 
 img{
     max-width: 100%;
-    
+    display: none;
 }
+.active{
+    display: block;
+}
+
 
 /*.slider{
     position: relative;

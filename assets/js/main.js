@@ -1,10 +1,10 @@
 //creo array img
 const slides = [
-    '03.webp',
-    '04.webp',
-    '01.webp',
-    '02.webp',
-    '05.webp'
+    './assets/img/03.webp',
+    './assets/img/04.webp',
+    './assets/img/01.webp',
+    './assets/img/02.webp',
+    './assets/img/05.webp'
 ]
 
 //seleziono DOM e dove posizionare le img
@@ -19,3 +19,5 @@ for (let i = 0; i < slides.length; i++){
     const slideMark = `<img class="${i === activeImg ? 'active' : ''}" src="${slideUrl}" alt="">`
     slidesEl.insertAdjacentHTML('beforeend', slideMark)
 }
+
+//

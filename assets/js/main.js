@@ -49,3 +49,25 @@ nextButton.addEventListener('click', function (){
 
   newImg.classList.add('active')
 })
+
+prevButton.addEventListener('click', function (){
+    console.log('prev');
+  
+  
+    const slides =document.querySelectorAll('.slides > img');
+    const thisSlides = slides[activeImg];
+    
+    // rimuovo class active 
+    thisSlides.classList.remove('active')
+  
+    //incremento immagini 
+    activeImg--
+  
+    //vado alla seconda img
+  
+    const newImg = slides[activeImg]
+  
+    // do di nuovo la classe active
+  
+    newImg.classList.add('active')
+  })
